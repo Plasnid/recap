@@ -55,3 +55,12 @@ if(hunger<=5){
     console.log("a double big mac with an entire pigs worth of bacon");
 }
 
+// * putting an if statment into a function
+function shouldIWakeUp(alarmOn){
+    if(alarmOn==true){
+        console.log("I hate this alarm, I want to sleep!")
+    }else{
+        console.log("no alarm, I can sleep!");
+    }
+}
+shouldIWakeUp(true);
